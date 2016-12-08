@@ -1,0 +1,33 @@
+plugins {
+    id 'war'
+    id 'org.akhikhl.gretty' version '1.4.0'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile "junit:junit:4.12"
+
+    compile "org.slf4j:slf4j-api:1.7.13"
+    compile "ch.qos.logback:logback-classic:1.1.3"
+}
+
+gretty {
+    servletContainer = 'tomcat8'
+    managedClassReload = true
+    port = 8089
+    contextPath = '/'
+    contextConfigFile = 'src/main/webapp/META-INF/tomcat-context.xml'
+}
+
+javadoc {
+    options.addStringOption("locale","ko_KR");
+    options.addStringOption("encoding","UTF-8");
+    options.addStringOption("charset","UTF-8");
+    options.addStringOption("docencoding","UTF-8");
+}
