@@ -1,6 +1,7 @@
 plugins {
     id 'war'
     id 'org.akhikhl.gretty' version '1.4.0'
+    id 'idea'
 }
 
 sourceCompatibility = 1.8
@@ -43,4 +44,11 @@ javadoc {
     options.addStringOption("encoding","UTF-8");
     options.addStringOption("charset","UTF-8");
     options.addStringOption("docencoding","UTF-8");
+}
+
+idea {
+    module {
+        sourceDirs += file('src/main/generated')
+        generatedSourceDirs += file('src/main/generated')
+    }
 }

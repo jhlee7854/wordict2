@@ -35,4 +35,17 @@ public interface WordService {
      * @return 제거된 단어
      */
     Word remove(Long id);
+
+    /**
+     * 시스템에 추가된 단어 중 제시된 이름과 일차하는 단어를 찾는다.
+     * @param name 시스템에 추가된 단어의 이름
+     * @return 찾은 단어
+     */
+    Word findByName(String name);
+
+    /**
+     * 시스템에 추가된 모든 단어를 찾는다.
+     * @return 찾은 단어들
+     */
+    Iterable<Word> findAll();
 }
