@@ -11,6 +11,10 @@ repositories {
     jcenter()
 }
 
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
 dependencies {
     def springVersion = '4.3.2.RELEASE'
     def springDataVersion = '1.9.4.RELEASE'
