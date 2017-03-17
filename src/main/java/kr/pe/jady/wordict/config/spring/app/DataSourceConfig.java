@@ -1,4 +1,4 @@
-package kr.pe.jady.wordict.word.config.spring.app;
+package kr.pe.jady.wordict.config.spring.app;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

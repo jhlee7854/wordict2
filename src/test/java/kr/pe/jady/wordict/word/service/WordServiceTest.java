@@ -1,8 +1,8 @@
 package kr.pe.jady.wordict.word.service;
 
 import com.google.common.collect.Iterables;
-import kr.pe.jady.wordict.word.config.spring.app.AppConfig;
-import kr.pe.jady.wordict.word.config.spring.app.DataSourceTestConfig;
+import kr.pe.jady.wordict.config.spring.app.AppConfig;
+import kr.pe.jady.wordict.config.spring.app.DataSourceTestConfig;
 import kr.pe.jady.wordict.word.model.Word;
 import kr.pe.jady.wordict.word.system.exception.NotFoundException;
 import org.junit.Before;

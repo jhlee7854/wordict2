@@ -1,4 +1,4 @@
-package kr.pe.jady.wordict.word.config.spring.app;
+package kr.pe.jady.wordict.config.spring.app;
 
 import org.hibernate.jpa.AvailableSettings;
 import org.springframework.context.annotation.Bean;
@@ -19,7 +19,7 @@ import java.util.Properties;
  * @author jhlee7854
  */
 @Configuration
-@EnableJpaRepositories(basePackages = {"kr.pe.jady.wordict.word"})
+@EnableJpaRepositories(basePackages = {"kr.pe.jady.wordict"})
 @Import(DataSourceConfig.class)
 public class JpaConfig {
     @Bean

@@ -1,4 +1,4 @@
-package kr.pe.jady.wordict.word.config.spring.app;
+package kr.pe.jady.wordict.config.spring.app;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -8,6 +8,6 @@ import org.springframework.context.annotation.Configuration;
  * @author jhlee7854
  */
 @Configuration
-@ComponentScan(basePackages = {"kr.pe.jady.wordict.word"})
+@ComponentScan(basePackages = {"kr.pe.jady.wordict"})
 public class AppConfig {
 }
