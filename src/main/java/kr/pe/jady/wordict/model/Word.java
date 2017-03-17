@@ -1,4 +1,4 @@
-package kr.pe.jady.wordict.word.model;
+package kr.pe.jady.wordict.model;
 
 import javax.persistence.*;
 

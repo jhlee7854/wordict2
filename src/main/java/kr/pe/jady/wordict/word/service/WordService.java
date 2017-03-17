@@ -1,6 +1,6 @@
 package kr.pe.jady.wordict.word.service;
 
-import kr.pe.jady.wordict.word.model.Word;
+import kr.pe.jady.wordict.model.Word;
 
 /**
  * Word Service

@@ -34,7 +34,7 @@ public class JpaConfig {
         factoryBean.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
         factoryBean.setPersistenceUnitName("word");
         factoryBean.setDataSource(dataSource);
-        factoryBean.setPackagesToScan("kr.pe.jady.wordict.word.model");
+        factoryBean.setPackagesToScan("kr.pe.jady.wordict.model");
         factoryBean.afterPropertiesSet();
 
         return factoryBean.getObject();

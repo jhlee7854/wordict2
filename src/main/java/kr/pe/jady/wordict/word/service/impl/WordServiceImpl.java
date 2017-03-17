@@ -1,11 +1,11 @@
 package kr.pe.jady.wordict.word.service.impl;
 
 import com.mysema.query.BooleanBuilder;
-import kr.pe.jady.wordict.word.model.QWord;
-import kr.pe.jady.wordict.word.model.Word;
+import kr.pe.jady.wordict.model.QWord;
+import kr.pe.jady.wordict.model.Word;
 import kr.pe.jady.wordict.word.repository.WordRepository;
 import kr.pe.jady.wordict.word.service.WordService;
-import kr.pe.jady.wordict.word.system.exception.NotFoundException;
+import kr.pe.jady.wordict.system.exception.NotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

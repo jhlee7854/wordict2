@@ -1,6 +1,6 @@
 package kr.pe.jady.wordict.word.repository;
 
-import kr.pe.jady.wordict.word.model.Word;
+import kr.pe.jady.wordict.model.Word;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.querydsl.QueryDslPredicateExecutor;
 import org.springframework.stereotype.Repository;
